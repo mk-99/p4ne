@@ -1,6 +1,9 @@
 #!/usr/local/bin/python3
 
-import matplotlib.pyplot as pyplot
+# Ищем корреляции между активностью Солнца и ухудшением отношений с США
+# Данные предоставляются в виде внешнего файла MS Excel
+
+from matplotlib import pyplot
 from openpyxl import load_workbook
 
 def getvalue(x):
