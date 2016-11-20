@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 # Import some objects from library
 from pysnmp.hlapi import *
 
@@ -14,3 +16,5 @@ errorIndication, errorStatus, errorIndex, varBinds = next(g) # Actual request pe
 
 for varBind in varBinds:
     print(' = '.join([x.prettyPrint() for x in varBind]))
+
+mib_object = ObjectType(ObjectIdentity('SNMPv2-MIB', 'sysDescr', 0))
