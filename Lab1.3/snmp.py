@@ -18,3 +18,6 @@ for varBind in varBinds:
     print(' = '.join([x.prettyPrint() for x in varBind]))
 
 mib_object = ObjectType(ObjectIdentity('SNMPv2-MIB', 'sysDescr', 0))
+g = getCmd(engine, community_data, transfer_method, ContextData(), mib_object) # g is a 'generator'
+
+errorIndication, errorStatus, errorIndex, varBinds = next(g) # Actual request performs here. Multiple assignment example
