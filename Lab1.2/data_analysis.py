@@ -9,6 +9,7 @@ from openpyxl import load_workbook
 def getvalue(x):
     return x.value
 
+
 wb = load_workbook('data_analysis_lab.xlsx')
 sheet = wb['Data']
 years = list(map(getvalue, sheet['A'][1:]))
