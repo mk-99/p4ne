@@ -19,6 +19,7 @@ def print_snmp(g):
             raise Snmp_exception
         else:
             for varBind in varBinds:
+                print(varBind)
                 print(' = '.join([x.prettyPrint() for x in varBind]))
 
 # g is a 'generator' object, it's elements returned are lists of [errorIndication, errorStatus, errorIndex, varBinds]
