@@ -6,6 +6,9 @@ def simple_compare(x):
 def len_compare(x):
     return len(x)
 
+def compare_2(x):
+    return x[1]
+
 def sort1(what_to_sort, compare_func=simple_compare):
     v = what_to_sort
     for i in range(0, len(v)):
@@ -22,3 +25,4 @@ print(sort1(l))
 l = ["One", "Two", "Three", "Four", "Five", "Six"]
 print(sort1(l))
 print(sort1(l, compare_func=len_compare))
+print(sort1(l, compare_func=compare_2))
