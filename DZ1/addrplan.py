@@ -81,6 +81,8 @@ if __name__ == '__main__':
 
     crow = 2
 
+    print("%-20s\t%-4s\t%-20s" % ("Subnet", "Mask", "GW"))
+
     for subnet_key in addr_plan.keys():
         subnet, mask = subnet_key.split('/')
         mask = '/' + mask
