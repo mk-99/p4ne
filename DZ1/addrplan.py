@@ -79,7 +79,7 @@ if __name__ == '__main__':
     ws['B1'] = 'Mask'
     ws['C1'] = 'GW'
 
-    crow = 2
+    current_row = 2
 
     print("%-20s\t%-4s\t%-20s" % ("Subnet", "Mask", "GW"))
 
@@ -88,10 +88,10 @@ if __name__ == '__main__':
         mask = '/' + mask
         gw = find_max(addr_plan[subnet_key])
 
-        ws.cell(row=crow, column=1, value=subnet)
-        ws.cell(row=crow, column=2, value=mask)
-        ws.cell(row=crow, column=3, value=gw)
-        crow += 1
+        ws.cell(row=current_row, column=1, value=subnet)
+        ws.cell(row=current_row, column=2, value=mask)
+        ws.cell(row=current_row, column=3, value=gw)
+        current_row += 1
 
         print("%-20s\t%-4s\t%-20s" % (subnet, mask, gw))
 
