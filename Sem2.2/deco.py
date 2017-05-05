@@ -1,3 +1,5 @@
+print("Start")
+
 def decorator(F):
     def wrapper(arg):
         print("Вычисляем куб от ", arg)
@@ -7,6 +9,7 @@ def decorator(F):
 @decorator
 def cubic(arg):
    return arg * arg * arg
+
 
 for i in range (0, 10):
     print(cubic(i))
