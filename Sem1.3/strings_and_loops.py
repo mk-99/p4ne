@@ -15,6 +15,7 @@ i = 1
 while i <= 20:
     j = 1
     while j <= 20:
+#        print("%4d" % (i * j), end="")
         print("\x1b[%sm%4d\x1b[39m" % (classify(i * j), i * j), end="")
         j += 1
     print("")
