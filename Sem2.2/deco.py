@@ -6,10 +6,13 @@ def modify_cubic(old_func):
         return old_func(arg)
     return new_cubic
 
-@modify_cubic
+# @modify_cubic
 def cubic(arg):
    return arg * arg * arg
 
+cubic = modify_cubic(cubic)
+
+# cubic = modify_cubic(cubic)
 
 for i in range (0, 10):
     print(cubic(i))

@@ -74,7 +74,7 @@ if __name__ == '__main__':
     pprint.pprint(get_hosts(ticket))
 
     print("Devices = ")
-    pprint.pprint(get_hosts(ticket))
+    pprint.pprint(get_devices(ticket))
 
     print("Topology = ")
     pprint.pprint(get_topo(ticket))

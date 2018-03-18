@@ -1,10 +1,13 @@
 #!/usr/local/bin/python3
 
-# Import some objects from 'pysnmp' library. 'hlapi' means high-level API
+# Подключаем часть библиотеки 'pysnmp'. 'hlapi' означает high-level API
 from pysnmp.hlapi import *
 
+# Обрабатывать ошибки будем с помощью исключений. Определяем одно простейшее исключение "ошибка SNMP"
 class Snmp_exception(Exception): pass
 
+# Функция опроса по SNMP - принимает на вход объект-генератор, предоставленный библиотекой,
+# проходит по нему, выводит результаты, при ошибках порождает исключения
 def print_snmp(g):
     """Takes a generator object from pysnmp, prints snmp values"""
     # Actual request performs here.
@@ -22,17 +25,19 @@ def print_snmp(g):
                 print(varBind)
                 print(' = '.join([x.prettyPrint() for x in varBind]))
 
-# g is a 'generator' object, it's elements returned are lists of [errorIndication, errorStatus, errorIndex, varBinds]
 try:
+    # Библиотечная функция getCmd реализует SNMP-метод getcmd, возвращает объект-генератор,
+    # при проходе по которому выполняются SNMP-запросы
     g = getCmd(SnmpEngine(),
                CommunityData('public', mpModel=0),
                UdpTransportTarget(('10.31.70.107', 161)),
                ContextData(),
                ObjectType(ObjectIdentity('SNMPv2-MIB', 'sysDescr', 0)))
 
-    # Now it is time to print results
+    # Вывод результатов реализован как отдельная функция
     print_snmp(g)
 
+    # Библиотечная функция nextCmd работает аналогично getCmd, но реализует SNMP-метод nextcmd
     n = nextCmd(SnmpEngine(),
                CommunityData('public', mpModel=0),
                UdpTransportTarget(('10.31.70.107', 161)),
@@ -42,4 +47,5 @@ try:
 
     print_snmp(n)
 except:
+    # Управление передаётся сюда из любых точек, где есть оператор raise
     print('Error - exception')
