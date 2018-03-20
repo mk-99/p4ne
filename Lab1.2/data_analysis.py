@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 
-# Ищем корреляции между активностью Солнца и ухудшением отношений с США
+# Ищем корреляции между активностью Солнца и изменением средней температуры на Земле
 # Данные предоставляются в виде внешнего файла MS Excel
 
 # Подключаем библиотечные функции
@@ -20,16 +20,16 @@ sheet = wb['Data']
 
 # Извлекаем и преобразуем три столбца из листа
 years = list(map(getvalue, sheet['A'][1:]))
-relations = list(map(getvalue, sheet['B'][1:]))
-activity = list(map(getvalue, sheet['C'][1:]))
+temperature = list(map(getvalue, sheet['C'][1:]))
+activity = list(map(getvalue, sheet['D'][1:]))
 
 # Создаём графическое представление, но пока не показываем
-pyplot.plot(years, relations, label="Отношения")
+pyplot.plot(years, temperature, label="Относит. температура")
 pyplot.plot(years, activity, label="Активность Солнца")
 
 # Украшаем график - добавляем надписи
 pyplot.xlabel('Годы')
-pyplot.ylabel('Отношения/Активность Солнца')
+pyplot.ylabel('Температура/Активность Солнца')
 pyplot.legend(loc='upper left')
 
 # Отображаем график
