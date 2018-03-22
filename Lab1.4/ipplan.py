@@ -12,6 +12,12 @@ class IPv4RandomNetwork(IPv4Network):
                               random.randint(p_start, p_end), False),
                              strict=False
                              )
+
+    def regular(self):
+        return self.is_global and not \
+            (self.is_multicast or self.is_link_local or \
+             self.is_loopback or self.is_private or self.is_reserved or self.is_unspecified)
+
     def key_value(self):
         return int(self.network_address) + (int(self.netmask) << 32)
 
@@ -25,8 +31,10 @@ random.seed()
 rnlist = []
 
 # Генерируем сети, помещаем в список
-for i in range(0, 50):
-    rnlist.append(IPv4RandomNetwork(8, 24))
+while len(rnlist) < 50:
+    random_network = IPv4RandomNetwork(8, 24)
+    if random_network.regular() and random_network not in rnlist: # проверка на регулярность и уникальность
+        rnlist.append(random_network)
 
 # И выводим на экран
 for n in sorted(rnlist, key=sortfunc):
