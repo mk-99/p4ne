@@ -1,0 +1,182 @@
+[
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5534787726090463
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "American Express",
+            "CardNumber": 377424938596688
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "American Express",
+            "CardNumber": 379687239127621
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "American Express",
+            "CardNumber": 340245712899269
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "American Express",
+            "CardNumber": 345020237928256
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4929763353351474
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4357722197050313
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5223328749072422
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4929886803364845
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4539187850294460
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4716742579967187
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4929853925764609
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4929685538209907
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "American Express",
+            "CardNumber": 348406986512606
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5382271369182211
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5185999445879132
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4916370942058548
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5541872165516433
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5104242885839862
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5182420401527410
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4485748428536692
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5507605851806136
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "American Express",
+            "CardNumber": 373710371779151
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5544810794411474
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "Visa",
+            "CardNumber": 4104104148701458
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "American Express",
+            "CardNumber": 345949258683137
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "American Express",
+            "CardNumber": 374863158850379
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "American Express",
+            "CardNumber": 348121294528604
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5418507055997117
+        }
+    },
+    {
+        "CreditCard": {
+            "IssuingNetwork": "MasterCard",
+            "CardNumber": 5417902020087394
+        }
+    }
+]

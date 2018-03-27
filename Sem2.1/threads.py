@@ -12,7 +12,7 @@ def print_time( threadName, delay):
     lock_global_count = threading.Lock()
 
     count = 0
-    while 1:
+    while True:
         time.sleep(delay)
         count += 1
 
@@ -31,7 +31,7 @@ try:
 except:
     print ("Error: unable to start thread")
 
-while 1:
+while True:
     print(">>>> global_count = %d" % global_count)
     time.sleep(5)
     pass
