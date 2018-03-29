@@ -12,11 +12,12 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/index')
 def index():
-    return "This server shows information about it's environment"
-
-@app.route('/python')
-def python_info():
-    return jsonify(repr(sys.__dict__))
+    s = """
+        This server shows information about
+        configs on /configs request and about 
+        IP addresses on /config/<b>hostname</b> request"
+    """
+    return s
 
 @app.route('/configs')
 def host_info():
