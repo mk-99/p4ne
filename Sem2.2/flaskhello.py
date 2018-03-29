@@ -9,14 +9,17 @@ def index():
     return "Hello, World!"
 
 @app.route('/page1')
-def page1():
+def p_page1():
     return "Если вы это читаете, вы что-то знаете :)"
 
-@app.route('/page2')
-def page2():
-    return jsonify(str(sys.__dict__))
+@app.route('/python')
+def p_python():
+    return jsonify(sys.path)
+
+@app.route('/page2/<name>')
+def p_page2(name):
+    return "Зафиксировано обращение к " + name
 
 
 if __name__ == '__main__':
     app.run(debug=True)
-

@@ -9,6 +9,7 @@ def client():
     clientsocket.connect(('localhost', 8089))
     for i in range(50):
         clientsocket.send(('Hello' + str(i) + '\n').encode())
+        sleep(5)
     os._exit(0)
 
 
