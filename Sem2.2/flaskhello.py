@@ -16,9 +16,9 @@ def p_page1():
 def p_python():
     return jsonify(sys.path)
 
-@app.route('/page2/<name>')
-def p_page2(name):
-    return "Зафиксировано обращение к " + name
+@app.route('/page2/<name1>/<name2>')
+def p_page2(name1, name2):
+    return "Зафиксировано обращение к " + name1 + name2
 
 
 if __name__ == '__main__':
