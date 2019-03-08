@@ -21,8 +21,8 @@ def sort1(what_to_sort, compare_func=simple_compare):
 
 
 l = [10, 15, 111, 40, 80]
-print(sort1(l))
+print(sorted(l))
 l = ["One", "Two", "Three", "Four", "Five", "Six"]
-print(sort1(l))
-print(sort1(l, compare_func=len_compare))
-print(sort1(l, compare_func=compare_2))
+print(sorted(l))
+print(sorted(l, key=len_compare))
+print(sorted(l, key=compare_2))
