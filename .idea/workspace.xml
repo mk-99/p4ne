@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/p4ne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p4ne.iml" afterDir="false" />
+    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="Sem 1.2 changed">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ1/addrplan.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DZ1/addrplan.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.3/fib_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/fib_yield.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.4/sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.4/sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem2.1/sockets_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/sockets_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem2.1/vars.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/vars.py" afterDir="false" />
     </list>
     <ignored path="p4ne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -627,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522323474964</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Sem 1.2 changed">
+      <created>1552080884855</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1552080884855</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -713,7 +712,8 @@
     <MESSAGE value="Lab 1.4 changed" />
     <MESSAGE value="Lab 2.1 changed" />
     <MESSAGE value="Lab 2.2 changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 2.2 changed" />
+    <MESSAGE value="Sem 1.2 changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sem 1.2 changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -963,8 +963,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
