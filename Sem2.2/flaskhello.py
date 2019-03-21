@@ -18,7 +18,7 @@ def p_python():
 
 @app.route('/page2/<name1>/<name2>')
 def p_page2(name1, name2):
-    return "Зафиксировано обращение к " + name1 + name2
+    return "Зафиксировано обращение к " + name1 + ", " + name2
 
 
 if __name__ == '__main__':

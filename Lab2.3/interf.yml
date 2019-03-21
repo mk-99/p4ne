@@ -1,0 +1,14 @@
+- hosts: fs-ga
+  tasks:
+    - name: get all files in etc 
+      command: ifconfig -a
+      register: interfaces
+
+    - name: find RX packets
+      set_fact:
+          packets: "{{ interfaces['stdout'] | regex_findall('RX packets:([0-9]+)') }}"
+
+    - name: show results
+      debug:
+          msg: "Total received packets: {{ packets | map('int') | sum }}"
+
