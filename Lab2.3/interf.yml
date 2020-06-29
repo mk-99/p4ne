@@ -1,6 +1,6 @@
 - hosts: fs-ga
   tasks:
-    - name: get all files in etc 
+    - name: get all interfaces
       command: ifconfig -a
       register: interfaces
 

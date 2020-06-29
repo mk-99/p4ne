@@ -12,7 +12,5 @@ def cubic(arg):
 
 # cubic = modify_cubic(cubic)
 
-# cubic = modify_cubic(cubic)
-
 for i in range (0, 10):
     print(cubic(i))
