@@ -4,7 +4,9 @@ from flask import Flask
 from flask import render_template, jsonify
 
 
-controller = "devnetapi.cisco.com/sandbox/apic_em"
+# controller = "devnetapi.cisco.com/sandbox/apic_em"
+
+controller = "sandboxapicem.cisco.com"
 
 def new_ticket():
     url = 'https://' + controller + '/api/v1/ticket'

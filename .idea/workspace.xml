@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="Sem 1.2 changed">
-      <change afterPath="$PROJECT_DIR$/Lab1.3/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sem1.3/hanoi_tower.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/p4ne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p4ne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2.1/netdevice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab1.1/helloworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.1/helloworld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.3/interf.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.3/interf.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1/card1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/card1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1/card2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/card2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1/card3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/card3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1/carddata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/carddata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1/randmix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/randmix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.4/apicem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.4/apicem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sem1.2/data_analysis_pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.2/data_analysis_pandas.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sem1.3/fib_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/fib_yield.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem2.2/deco.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.2/deco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sem1.3/strings_and_loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/strings_and_loops.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +55,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sem2.1" />
       <recent name="$PROJECT_DIR$/Sem2.2" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Lab1.3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.apicem">
+  <component name="RunManager" selected="Python.helloworld">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="card" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="data_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,32 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab1.2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/card.py" />
-      <option name="PARAMETERS" value="47148700" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="deco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p4ne" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.2/deco.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab1.2/data_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +148,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p4ne" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab1.1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab1.1/helloworld.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="netdevice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,8 +181,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/test.py" />
-      <option name="PARAMETERS" value="arg1 arg2 arg3 arg4" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/netdevice.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -233,21 +237,22 @@
     </configuration>
     <list>
       <item itemvalue="Python.apicem" />
-      <item itemvalue="Python.card" />
-      <item itemvalue="Python.deco" />
+      <item itemvalue="Python.data_analysis" />
       <item itemvalue="Python.flaskhello" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.helloworld" />
+      <item itemvalue="Python.netdevice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.helloworld" />
         <item itemvalue="Python.apicem" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.data_analysis" />
+        <item itemvalue="Python.netdevice" />
         <item itemvalue="Python.flaskhello" />
-        <item itemvalue="Python.deco" />
-        <item itemvalue="Python.card" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -469,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552312743700</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Sem 1.2 changed">
+      <created>1593443627981</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1593443627981</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -512,28 +524,12 @@
     <MESSAGE value="Sem 1.2 changed" />
     <option name="LAST_COMMIT_MESSAGE" value="Sem 1.2 changed" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="328" y="119" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592994867181">
-      <screen x="0" y="23" width="1280" height="704" />
-    </state>
-    <state x="328" y="119" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1280.-257.1920.1057/0.23.1280.704@0.23.1280.704" timestamp="1592994867181" />
-    <state x="206" y="-1057" width="982" height="704" key="SettingsEditor" timestamp="1593099546012">
-      <screen x="0" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="206" y="-1057" key="SettingsEditor/0.23.1280.707/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1593099546012" />
-    <state x="137" y="23" width="982" height="704" key="SettingsEditor/1280.-257.1920.1057/0.23.1280.704@0.23.1280.704" timestamp="1592996253121" />
-    <state x="137" y="23" key="SettingsEditor/1280.-257.1920.1057/0.23.1280.707@0.23.1280.707" timestamp="1593003306473" />
-    <state x="296" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1592995063349">
-      <screen x="0" y="23" width="1280" height="704" />
-    </state>
-    <state x="296" y="209" key="com.intellij.ide.util.TipDialog/1280.-257.1920.1057/0.23.1280.704@0.23.1280.704" timestamp="1592995063349" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Sem2.2/deco.py</url>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
