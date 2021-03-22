@@ -1,6 +1,6 @@
 import paramiko, time
 
-host_ip = '10.31.72.160'
+host_ip = '10.31.70.209'
 login = 'restapi'
 password = 'j0sg1280-7@'
 

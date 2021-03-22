@@ -2,6 +2,7 @@
 
 def fib(n):
     a, b = 1, 1
+
     step = 0
     while step < n:
         yield a
@@ -14,6 +15,6 @@ def fibr(n):
     else:
         return fibr(n - 1) + fibr(n - 2)
 
-for i in range(0, 50):
+for i in range(50):
     print(fibr(i))
 
