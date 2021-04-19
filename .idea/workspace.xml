@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="Sem 1.2 changed">
-      <change afterPath="$PROJECT_DIR$/Lab2.1/netdevice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.1/helloworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.1/helloworld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.1/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.1/card1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/card1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.1/card2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/card2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.1/card3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/card3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.1/carddata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/carddata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.1/randmix.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/randmix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.4/apicem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.4/apicem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.2/data_analysis_pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.2/data_analysis_pandas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.3/fib_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/fib_yield.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.3/strings_and_loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/strings_and_loops.py" afterDir="false" />
-    </list>
+    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="Lab 2.3 changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,10 +38,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,7 +53,7 @@
       <recent name="$PROJECT_DIR$/Lab1.3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.helloworld">
+  <component name="RunManager" selected="Python.deco">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +73,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="apicem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="deco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,32 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2.4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.4/apicem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="data_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p4ne" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab1.2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab1.2/data_analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.2/deco.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,27 +115,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p4ne" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab1.1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab1.1/helloworld.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="netdevice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,6 +128,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/netdevice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="restdevice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p4ne" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2.1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/restdevice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sockets_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p4ne" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.1/sockets_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,19 +224,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.apicem" />
-      <item itemvalue="Python.data_analysis" />
+      <item itemvalue="Python.deco" />
       <item itemvalue="Python.flaskhello" />
-      <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.netdevice" />
+      <item itemvalue="Python.restdevice" />
+      <item itemvalue="Python.sockets_example" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.helloworld" />
-        <item itemvalue="Python.apicem" />
-        <item itemvalue="Python.data_analysis" />
-        <item itemvalue="Python.netdevice" />
+        <item itemvalue="Python.deco" />
         <item itemvalue="Python.flaskhello" />
+        <item itemvalue="Python.restdevice" />
+        <item itemvalue="Python.netdevice" />
+        <item itemvalue="Python.sockets_example" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +469,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593443627981</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Lab 2.3 changed">
+      <created>1615818324426</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1615818324426</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Lab 2.1 REST API added">
+      <created>1616412910717</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1616412910717</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -522,7 +524,9 @@
     <MESSAGE value="Lab 2.1 changed" />
     <MESSAGE value="Lab 2.2 changed" />
     <MESSAGE value="Sem 1.2 changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sem 1.2 changed" />
+    <MESSAGE value="Lab 2.3 changed" />
+    <MESSAGE value="Lab 2.1 REST API added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 2.1 REST API added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
