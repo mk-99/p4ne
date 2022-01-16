@@ -1,0 +1,9 @@
+- hosts: fs-ga
+  tasks:
+        - name: show root dir
+          command: ifconfig -a
+          register: interfaces
+
+        - name: show results
+          debug:
+            msg: "{{ interfaces }}"

@@ -1,0 +1,26 @@
+total 116
+drwxr-xr-x   2 root root 12288 May 22 17:34 bin
+drwxr-xr-x   3 root root 12288 May 22 17:36 boot
+drwxr-xr-x  17 root root  4200 May 22 17:37 dev
+drwxr-xr-x 113 root root 12288 May 22 17:36 etc
+drwxr-xr-x   3 root root  4096 Nov 25  2012 export
+drwxrwxrwx   6 root ga    4096 Aug 20  2018 ga
+drwxr-xr-x  10 root root  4096 Mar 21 17:36 home
+lrwxrwxrwx   1 root root    33 Sep 13  2016 initrd.img.old -> boot/initrd.img-3.13.0-95-generic
+drwxr-xr-x  25 root root  4096 May 22 17:34 lib
+drwx------   2 root root 16384 Feb 10  2012 lost+found
+drwxr-xr-x   4 root root  4096 Feb 10  2012 media
+drwxr-xr-x   3 root root  4096 Feb 10  2012 mnt
+drwxr-xr-x   2 root root  4096 Feb 10  2012 opt
+dr-xr-xr-x 176 root root     0 May 22 17:36 proc
+drwx------   5 root root  4096 Apr 19  2018 root
+drwxr-xr-x  34 root root  1240 May 23 16:43 run
+drwxr-xr-x   2 root root 12288 May 22 17:34 sbin
+drwxr-xr-x   2 root root  4096 Mar 22 07:04 snap
+drwxr-xr-x   3 root root  4096 Feb 14  2012 srv
+dr-xr-xr-x  13 root root     0 May 22 17:36 sys
+drwxrwxrwt  10 root root  4096 May 23 16:43 tmp
+lrwxrwxrwx   1 root root     4 Feb 13  2012 users -> home
+drwxr-xr-x  10 root root  4096 Feb 10  2012 usr
+drwxr-xr-x  15 root root  4096 Sep 13  2016 var
+lrwxrwxrwx   1 root root    30 Sep 13  2016 vmlinuz.old -> boot/vmlinuz-3.13.0-95-generic

@@ -21,5 +21,6 @@ def p_page2(name1, name2):
     return "Зафиксировано обращение к " + name1 + ", " + name2
 
 
+
 if __name__ == '__main__':
     app.run(debug=True)

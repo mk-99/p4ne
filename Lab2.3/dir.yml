@@ -1,0 +1,10 @@
+- hosts: fs-ga
+  tasks:
+    - name: show the root directory
+      command: ls -l /
+      register: dir1
+
+    - name: show results
+      debug:
+          msg: "{{ dir1 }}"
+

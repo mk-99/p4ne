@@ -9,7 +9,7 @@ class IPv4RandomNetwork(IPv4Network):
     def __init__(self, p_start=0, p_end=32):
         IPv4Network.__init__(self,
                              (random.randint(0x0B000000, 0xDF000000),
-                              random.randint(p_start, p_end), False),
+                              random.randint(p_start, p_end)),
                              strict=False
                              )
 

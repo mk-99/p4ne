@@ -10,6 +10,6 @@ r = requests.post(host_url + '/api/v1/auth/token-services', auth=(login, passwor
 token = r.json()["token-id"]
 
 header = {"content-type": "application/json", "X-Auth-Token": token}
-r = requests.get(host_url + '/api/v1/interfaces', headers=header, verify=False)
+r = requests.get(host_url + '/api/v1/interfaces/GigabitEthernet1/statistics', headers=header, verify=False)
 pprint.pprint(r.json())
 
