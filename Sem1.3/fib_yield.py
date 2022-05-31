@@ -18,3 +18,5 @@ def fibr(n):
 for i in range(50):
     print(fibr(i))
 
+# for i in fib(50):
+#    print(i)

@@ -26,6 +26,8 @@ def host_info():
         r.append(hosts[h]['name'])
     return jsonify(r)
 
+# localhost:5000/config/cisco1
+
 @app.route('/config/<hostname>')
 def ip_info(hostname):
     for h in hosts.keys():
