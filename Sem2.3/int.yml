@@ -1,6 +1,6 @@
 - hosts: fs-ga
   tasks:
-        - name: show root dir
+        - name: show interfaces
           command: ifconfig -a
           register: interfaces
 
