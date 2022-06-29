@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask template example</title>
+</head>
+<body>
+    <p>Строковая переменная: {{my_string}}</p>
+    <p>Элемент списка: {{my_list[2]}}</p>
+    <p>
+        Список
+        <ul>
+            {% for s in my_list %}
+                <li>{{s}}</li>
+            {% endfor %}
+        </ul>
+    </p>
+    <p>
+        Строковая переменная с фильтром: {{my_string | replace("Длинная", "Короткая")}}
+    </p>
+</body>
+</html>

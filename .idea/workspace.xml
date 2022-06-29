@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="Course 220117">
-      <change afterPath="$PROJECT_DIR$/Lab2.1/restdevice2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sem2.1/sslv1.py" afterDir="false" />
+    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="SSLv1 workaround added">
+      <change afterPath="$PROJECT_DIR$/Sem2.2/templates/page3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.2/getinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.2/getinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.2/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.2/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.2/data_analysis_pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.2/data_analysis_pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sem1.1/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.1/hello.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sem1.3/fib_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/fib_yield.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.3/strings_and_loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/strings_and_loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sem1.3/strings_and_loops2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/strings_and_loops2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sem1.4/subnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.4/subnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sem2.2/deco.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.2/deco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sem2.2/flaskhello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.2/flaskhello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,17 +60,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab2.1" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "full.screen.before.presentation.mode": "false",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lab2.4/templates" />
+      <recent name="$PROJECT_DIR$/Lab2.4" />
       <recent name="$PROJECT_DIR$/Lab2.1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +80,7 @@
       <recent name="$PROJECT_DIR$/Lab1.3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sockets_example">
+  <component name="RunManager" selected="Python.flaskhello">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,6 +99,27 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="deco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p4ne" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.2/deco.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="fib_yield" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
@@ -122,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="flaskhello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +150,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab1.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab1.1/helloworld.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.2/flaskhello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="restdevice2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p4ne" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2.1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/restdevice2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,48 +197,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.1/sockets_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="strings_and_loops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p4ne" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem1.3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem1.3/strings_and_loops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="strings_and_loops2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p4ne" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem1.3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem1.3/strings_and_loops2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,19 +251,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.helloworld" />
-      <item itemvalue="Python.strings_and_loops" />
-      <item itemvalue="Python.strings_and_loops2" />
-      <item itemvalue="Python.fib_yield" />
+      <item itemvalue="Python.deco" />
+      <item itemvalue="Python.flaskhello" />
+      <item itemvalue="Python.restdevice2" />
       <item itemvalue="Python.sockets_example" />
+      <item itemvalue="Python.fib_yield" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.flaskhello" />
+        <item itemvalue="Python.deco" />
+        <item itemvalue="Python.restdevice2" />
         <item itemvalue="Python.sockets_example" />
         <item itemvalue="Python.fib_yield" />
-        <item itemvalue="Python.strings_and_loops2" />
-        <item itemvalue="Python.strings_and_loops" />
-        <item itemvalue="Python.helloworld" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +524,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642322440417</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="SSLv1 workaround added">
+      <created>1654009058538</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1654009058538</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Lab2.4 updated">
+      <created>1654257452043</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1654257452044</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView">
@@ -580,7 +593,9 @@
     <MESSAGE value="Lab 2.1 REST API added" />
     <MESSAGE value="Test commit" />
     <MESSAGE value="Course 220117" />
-    <option name="LAST_COMMIT_MESSAGE" value="Course 220117" />
+    <MESSAGE value="SSLv1 workaround added" />
+    <MESSAGE value="Lab2.4 updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab2.4 updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

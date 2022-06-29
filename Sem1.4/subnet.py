@@ -18,6 +18,8 @@ class Subnet:
         self.prefix = p
     def __str__(self):
         return self.network + self.prefix
+    def __repr__(self):
+        return self.network + self.prefix
     def getnet(self):
         return self.network
     def getprefix(self):
