@@ -5,5 +5,7 @@
           register: dir1
 
         - name: show results
-          debug:
+          debug: # debug module
             msg: "{{ dir1 }}"
+
+# end

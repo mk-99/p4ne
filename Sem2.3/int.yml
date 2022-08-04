@@ -6,4 +6,4 @@
 
         - name: show results
           debug:
-            msg: "{{ interfaces }}"
+            msg: "{{ interfaces['stdout'] | regex_findall('RX packets:([0-9]+)')  | map('int') | sum }}"
