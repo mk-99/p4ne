@@ -28,7 +28,7 @@ ip_addresses = []
 interfaces = []
 hosts = []
 
-for current_file_name in glob.glob("/Users/mk/Seafile/p4ne_training/config_files/*.txt"):
+for current_file_name in glob.glob("/Users/mk/Seafile/p4ne_training/config_files/*.log"):
     with open(current_file_name) as f:
         for current_line in f:
             c = classify(current_line)

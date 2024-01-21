@@ -16,7 +16,7 @@ def fibr(n):
         return fibr(n - 1) + fibr(n - 2)
 
 for i in range(50):
-    print(fibr(i))
+   print(fibr(i))
 
-#for i in fib(50):
+# for i in fib(50):
 #    print(i)
