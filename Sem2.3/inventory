@@ -1,0 +1,70 @@
+[csr-lab-infra]
+#CSR Laboratory Infrastructure Equipment
+sw6-demo			ansible_ssh_host=10.31.72.250	ansible_user=jet	ansible_pass=q1q1q1
+sw-demo				ansible_host=10.31.70.107	ansible_user=jet	ansible_pass=q1q1q1
+FLS624				ansible_ssh_host=10.31.70.228	ansible_user=jet	ansible_pass=q1q1q1
+ICX6450				ansible_ssh_host=10.31.70.64	ansible_user=jet	ansible_pass=q1q1q1
+VDX2				ansible_ssh_host=10.31.72.241	ansible_user=admin	ansible_pass=q1q1q1q1
+VDX3				ansible_ssh_host=10.31.72.240	ansible_user=admin	ansible_pass=q1q1q1q1
+core1				ansible_ssh_host=10.31.72.1		ansible_user=jet	ansible_pass=q1q1q1
+demo03				ansible_ssh_host=10.31.179.10	ansible_user=jet	ansible_pass=q1q1q1
+demo01				ansible_ssh_host=10.31.179.6	ansible_user=jet	ansible_pass=q1q1q1
+mgmt01				ansible_ssh_host=10.31.72.81	ansible_user=jet	ansible_pass=q1q1q1
+mgmt02				ansible_ssh_host=10.31.72.82	ansible_user=jet	ansible_pass=q1q1q1
+data-1g-sw01		ansible_ssh_host=10.31.72.83	ansible_user=jet	ansible_pass=q1q1q1
+data-1g-sw02		ansible_ssh_host=10.31.72.6		ansible_user=jet	ansible_pass=q1q1q1q1
+vc1					ansible_ssh_host=10.31.72.55	ansible_user=root	ansible_pass=Password123!
+demo04				ansible_ssh_host=10.31.168.66	ansible_user=jet	ansible_pass=q1q1q1q1
+demo04		
+
+[lab-huawei]
+#CSR Laboratory of Huawei Network Equipment
+lab-ce5855-sw1		ansible_ssh_host=10.31.72.131	ansible_user=jet	ansible_pass=q1q1q1
+lab-usg1			ansible_ssh_host=10.31.72.132	ansible_user=admin	ansible_pass=Q!q2Q#q4
+lab-usg2			ansible_ssh_host=10.31.72.133	ansible_user=admin	ansible_pass=Q!q2Q#q4
+NE20S#1				ansible_ssh_host=10.31.168.58	ansible_user=jet@jet.su		ansible_pass=q1q1q1q1
+NE20S#2				ansible_ssh_host=10.31.168.59	ansible_user=jet@jet.su		ansible_pass=q1q1q1q1
+ab-CE6870-1(Master)	ansible_ssh_host=10.31.72.128	ansible_user=jet	ansible_pass=q1q1q1q1
+
+[lab-multimedia]
+mm-sw1				ansible_ssh_host=10.31.175.5	ansible_user=jet	ansible_pass=q1q1q1q1
+
+[lab-cisco]
+#CSR Laboratory of Cisco Network Equipment
+lab-c3560-sw1
+sw-lab				ansible_host=10.31.70.107	ansible_pass=q1		ansible_port=23
+fls					ansible_host=10.31.70.228	ansible_user=jet	ansible_pass=q1		ansible_port=23
+
+[consoles]
+#console interfaces of equipment
+core1-con1			ansible_host=10.31.72.5	ansible_port=2016
+core1-con2			ansible_host=10.31.72.5	ansible_port=2017
+mgmt01-con			ansible_host=10.31.72.5	ansible_port=2003
+mgmt02-con			ansible_host=10.31.72.5	ansible_port=2008
+data-1g-sw01-con	ansible_host=10.31.72.5	ansible_port=2009
+data-1g-sw02-con	ansible_host=10.31.72.5	ansible_port=2024
+lab-ar1200-R5-con	ansible_host=10.31.72.5	ansible_port=2028
+lab-ar1200-R6-con	ansible_host=10.31.72.5	ansible_port=2001
+lab-ar1200-R7-con	ansible_host=10.31.72.5	ansible_port=2004
+lab-ar1200-R8-con	ansible_host=10.31.72.5	ansible_port=2020
+lab-ar2220-R1-con	ansible_host=10.31.72.5	ansible_port=2013
+lab-ar2220-R2-con	ansible_host=10.31.72.5	ansible_port=2014
+lab-ar2220-R3-con	ansible_host=10.31.72.5	ansible_port=2015
+lab-s5720-sw1-con	ansible_host=10.31.72.5	ansible_port=2026
+lab-s5720-sw2-con	ansible_host=10.31.72.5	ansible_port=2024
+lab-ce5855-con		ansible_host=10.31.72.5	ansible_port=2027
+lab-c3560-sw1-con	ansible_host=10.31.72.5	ansible_port=2007
+lab-usg1-con		ansible_host=10.31.72.5	ansible_port=2005
+lab-usg2-con		ansible_host=10.31.72.5	ansible_port=2010
+lab-asa5510-1-con		ansible_host=10.31.72.5	ansible_port=2018
+lab-asa5510-2-con		ansible_host=10.31.72.5	ansible_port=2019
+lab-asa5515-1-con		ansible_host=10.31.72.5	ansible_port=2030
+lab-n5548-1-con		ansible_host=10.31.72.5	ansible_port=2012 ansible_user=admin	ansible_pass=qazQAZ123
+lab-CE6870-1-con(Master)		ansible_host=10.31.72.5	ansible_port=2029
+lab-CE6870-2-con(Standby)		ansible_host=10.31.72.5	ansible_port=2031
+
+
+[console-servers]
+#Console servers
+cm	ansible_host=10.31.72.5 ansible_user=root	ansible_pass=q1q1q1
+

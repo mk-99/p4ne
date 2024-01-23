@@ -1,0 +1,13 @@
+- hosts: fs-ga
+  tasks:
+        - name: show interfaces
+          command: ifconfig -a
+          register: interfaces
+
+        - name: find interesting strings
+          set_fact:
+            packets: "{{ interfaces['stdout_lines'] | join('==== \n ====') }}"
+
+        - name: show results
+          debug:
+            msg: "{{ packets }}"
