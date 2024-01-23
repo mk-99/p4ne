@@ -1,4 +1,4 @@
-import paramiko, time
+import paramiko, time, re
 
 host_ip = '10.31.70.209'
 login = 'restapi'
@@ -30,12 +30,17 @@ session = ssh_connection.invoke_shell()
 
 # Send commands and receive command outputs
 disable_scrolling(session)
-cmd_lines = net_command(session, 'show ip int brief', timeout=3).split('\n')
+cmd_lines = net_command(session, 'show interfaces', timeout=3).split('\n')
 
-n = 0
-for l in cmd_lines:
-    n += 1
-    print(f"Line {n} is {l}")
+for current_line in cmd_lines:
+    if m := re.match("^([A-Z].+?) is", current_line):
+        print("Interface " + m.group(1))
+    if m := re.match("^.+?([0-9]+) packets input, ([0-9]+) bytes", current_line):
+        print("Packets/bytes input: ", m.group(1), "/", m.group(2))
+
+    if m := re.match("^.+?([0-9]+) packets output, ([0-9]+) bytes", current_line):
+        print("Packets/bytes output: ", m.group(1), "/", m.group(2))
+
 
 ssh_connection.close()
 

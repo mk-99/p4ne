@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="Updates to 'ansible' lab (2.3)">
-      <change afterPath="$PROJECT_DIR$/Sem1.4/subnet1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sem2.1/restconftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/p4ne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p4ne.iml" afterDir="false" />
+    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="Updates Jan 2024">
+      <change afterPath="$PROJECT_DIR$/Lab2.1/restdevice0.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.3/snmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.3/snmp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.5/configfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.5/configfiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.6/regexp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.6/regexp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.2/data_analysis_pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.2/data_analysis_pandas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.3/fib_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/fib_yield.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem1.3/strings_and_loops2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem1.3/strings_and_loops2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1/netdevice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.1/netdevice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1/restdevice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.1/restdevice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.1/restdevice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.1/restdevice1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sem2.1/restconftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/restconftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,25 +68,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.configfiles.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_analysis.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fib_yield.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.helloworld.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ipplan.executor&quot;: &quot;Run&quot;,
-    &quot;Python.regexp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.restconftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snmp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.strings_and_loops.executor&quot;: &quot;Run&quot;,
-    &quot;Python.strings_and_loops2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mk/PycharmProjects/p4ne/Sem2.1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.configfiles.executor": "Run",
+    "Python.data_analysis.executor": "Run",
+    "Python.fib_yield.executor": "Debug",
+    "Python.helloworld.executor": "Run",
+    "Python.ipplan.executor": "Run",
+    "Python.netdevice.executor": "Run",
+    "Python.regexp.executor": "Run",
+    "Python.restconftest.executor": "Run",
+    "Python.restdevice.executor": "Run",
+    "Python.snmp.executor": "Run",
+    "Python.sockets_example.executor": "Run",
+    "Python.strings_and_loops.executor": "Run",
+    "Python.strings_and_loops2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "/Users/mk/PycharmProjects/p4ne/Sem2.1",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Sem2.1" />
@@ -106,7 +104,7 @@
       <recent name="$PROJECT_DIR$/Lab1.3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fib_yield">
+  <component name="RunManager" selected="Python.restdevice">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,28 +124,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="data_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p4ne" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab1.2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab1.2/data_analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="fib_yield" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="ENV_FILES" value="" />
@@ -162,6 +138,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem1.3/fib_yield.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="netdevice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p4ne" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2.1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/netdevice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="strings_and_loops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="restdevice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,11 +199,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem1.3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2.1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem1.3/strings_and_loops.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/restdevice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,7 +212,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="strings_and_loops2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sockets_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,11 +221,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem1.3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem1.3/strings_and_loops2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.1/sockets_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,19 +283,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.fib_yield" />
       <item itemvalue="Python.restconftest" />
-      <item itemvalue="Python.strings_and_loops" />
-      <item itemvalue="Python.strings_and_loops2" />
-      <item itemvalue="Python.data_analysis" />
+      <item itemvalue="Python.restdevice" />
+      <item itemvalue="Python.netdevice" />
+      <item itemvalue="Python.sockets_example" />
+      <item itemvalue="Python.fib_yield" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fib_yield" />
-        <item itemvalue="Python.strings_and_loops2" />
-        <item itemvalue="Python.strings_and_loops" />
-        <item itemvalue="Python.data_analysis" />
+        <item itemvalue="Python.restdevice" />
+        <item itemvalue="Python.netdevice" />
         <item itemvalue="Python.restconftest" />
+        <item itemvalue="Python.sockets_example" />
+        <item itemvalue="Python.fib_yield" />
       </list>
     </recent_temporary>
   </component>
@@ -593,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1659631578106</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Updates Jan 2024">
+      <option name="closed" value="true" />
+      <created>1705857231709</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1705857231709</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -636,7 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Seminar 1.3 added" />
     <MESSAGE value="Lab 1.4 (ipplan) added" />
     <MESSAGE value="Lab 1.5 (configfiles) added" />
     <MESSAGE value="Lab 1.6 (regex) added" />
@@ -661,7 +666,8 @@
     <MESSAGE value="Lab2.4 updated" />
     <MESSAGE value="Jinja2 template example added to Sem2.2" />
     <MESSAGE value="Updates to 'ansible' lab (2.3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates to 'ansible' lab (2.3)" />
+    <MESSAGE value="Updates Jan 2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates Jan 2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

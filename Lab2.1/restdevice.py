@@ -1,15 +1,27 @@
-import requests, json, pprint
+import requests
+import pprint
 
-host_ip = '10.31.70.210'
-login = 'restapi'
-password = 'j0sg1280-7@'
+headers = {
+    "accept": "application/yang-data+json",
+    "Content-Type": "application/yang-data+json"
+}
 
-host_url = 'https://' + host_ip + ':55443'
+HOST = "https://10.31.70.209"
+REST_OPER = "/restconf/data/Cisco-IOS-XE-interfaces-oper:interfaces"
 
-r = requests.post(host_url + '/api/v1/auth/token-services', auth=(login, password), verify=False)
-token = r.json()["token-id"]
+r = requests.get(
+    HOST + REST_OPER,
+    verify=False,
+    auth=("restapi", "j0sg1280-7@"),
+    headers=headers,
+)
 
-header = {"content-type": "application/json", "X-Auth-Token": token}
-r = requests.get(host_url + '/api/v1/interfaces/GigabitEthernet1/statistics', headers=header, verify=False)
-pprint.pprint(r.json())
+if r.status_code == 200:
+    device_data = r.json()
+    pprint.pprint(device_data, width=30)
+    print("===========")
+    for current_int in device_data['Cisco-IOS-XE-interfaces-oper:interfaces']['interface']:
+        print("Interface: ", current_int['name'])
+        print("Input packets/bytes: ", current_int['statistics']['in-unicast-pkts'], "/", current_int['statistics']['in-octets'])
+        print("Output packets/bytes: ", current_int['statistics']['out-unicast-pkts'], "/", current_int['statistics']['out-octets'])
 

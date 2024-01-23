@@ -7,16 +7,17 @@ headers = {
 }
 
 HOST = "https://10.31.70.209"
-RES1 = "/restconf/data/Cisco-IOS-XE-native:native/interface/GigabitEthernet/1"
-RES2 = "/restconf/data/Cisco-IOS-XE-interfaces-oper:native/interface/GigabitEthernet/1"
-
+REST_HOSTNAME = "/restconf/data/Cisco-IOS-XE-native:native/hostname"
+REST_INTERFACE = "/restconf/data/Cisco-IOS-XE-native:native/interface/GigabitEthernet/1"
+REST_INTERFACE_2 = "/restconf/data/ietf-interfaces:interfaces/interface=GigabitEthernet1"
+REST_OPER = "/restconf/data/Cisco-IOS-XE-interfaces-oper:interfaces"
 
 r = requests.get(
-    HOST + RES2,
+    HOST + REST_OPER,
     verify=False,
-    auth=("jet", "q1q1q1"),
+    auth=("restapi", "j0sg1280-7@"),
     headers=headers,
 )
 print(r.status_code)
-pprint.pprint(r.json())
+pprint.pprint(r.json(), width=30)
 
