@@ -4,6 +4,10 @@
           command: ifconfig -a
           register: interfaces
 
+        - name: show intermediate results
+          debug:
+            msg: "{{ interfaces }}"
+
         - name: show results
           debug:
-            msg: "{{ interfaces['stdout'] | regex_findall('RX packets:([0-9]+)')  | map('int') | sum }}"
+            msg: "{{ interfaces['stdout'] | regex_findall('RX packets ([0-9]+)')  | map('int') | sum }}"

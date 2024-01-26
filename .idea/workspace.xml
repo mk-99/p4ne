@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="Updates Jan 2024">
-      <change afterPath="$PROJECT_DIR$/Lab2.1/restdevice0.py" afterDir="false" />
+    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="REST API lab some fixes">
+      <change afterPath="$PROJECT_DIR$/Lab2.4/cat8000v.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.1/netdevice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.1/netdevice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.1/restdevice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.1/restdevice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.1/restdevice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.1/restdevice1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.3/interf.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.3/interf.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sem2.1/restconftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/restconftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sem2.3/int.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.3/int.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +70,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.cat8000v.executor": "Run",
     "Python.configfiles.executor": "Run",
     "Python.data_analysis.executor": "Run",
+    "Python.deco.executor": "Debug",
     "Python.fib_yield.executor": "Debug",
+    "Python.flaskhello.executor": "Run",
     "Python.helloworld.executor": "Run",
     "Python.ipplan.executor": "Run",
     "Python.netdevice.executor": "Run",
@@ -86,15 +88,15 @@
     "Python.strings_and_loops2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "/Users/mk/PycharmProjects/p4ne/Sem2.1",
+    "last_opened_file_path": "/Users/mk/PycharmProjects/p4ne/Lab2.4",
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lab2.4" />
       <recent name="$PROJECT_DIR$/Sem2.1" />
       <recent name="$PROJECT_DIR$/Lab2.4/templates" />
-      <recent name="$PROJECT_DIR$/Lab2.4" />
       <recent name="$PROJECT_DIR$/Lab2.1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -104,7 +106,7 @@
       <recent name="$PROJECT_DIR$/Lab1.3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.restdevice">
+  <component name="RunManager" selected="Python.cat8000v">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +126,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="fib_yield" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cat8000v" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem1.3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2.4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem1.3/fib_yield.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.4/cat8000v.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="netdevice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="deco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,11 +157,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/netdevice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.2/deco.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flaskhello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p4ne" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.2/flaskhello.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,28 +228,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/restdevice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sockets_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p4ne" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.1/sockets_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,19 +285,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.cat8000v" />
+      <item itemvalue="Python.deco" />
+      <item itemvalue="Python.flaskhello" />
       <item itemvalue="Python.restconftest" />
       <item itemvalue="Python.restdevice" />
-      <item itemvalue="Python.netdevice" />
-      <item itemvalue="Python.sockets_example" />
-      <item itemvalue="Python.fib_yield" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.restdevice" />
-        <item itemvalue="Python.netdevice" />
+        <item itemvalue="Python.cat8000v" />
         <item itemvalue="Python.restconftest" />
-        <item itemvalue="Python.sockets_example" />
-        <item itemvalue="Python.fib_yield" />
+        <item itemvalue="Python.deco" />
+        <item itemvalue="Python.flaskhello" />
+        <item itemvalue="Python.restdevice" />
       </list>
     </recent_temporary>
   </component>
@@ -599,7 +601,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705857231709</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="REST API lab some fixes">
+      <option name="closed" value="true" />
+      <created>1706009186305</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1706009186305</updated>
+    </task>
+    <task id="LOCAL-00042" summary="REST API lab some fixes">
+      <option name="closed" value="true" />
+      <created>1706009215153</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1706009215153</updated>
+    </task>
+    <task id="LOCAL-00043" summary="REST API lab some fixes">
+      <option name="closed" value="true" />
+      <created>1706011477743</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1706011477743</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -642,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lab 1.4 (ipplan) added" />
     <MESSAGE value="Lab 1.5 (configfiles) added" />
     <MESSAGE value="Lab 1.6 (regex) added" />
     <MESSAGE value="DZ1 added" />
@@ -667,7 +692,8 @@
     <MESSAGE value="Jinja2 template example added to Sem2.2" />
     <MESSAGE value="Updates to 'ansible' lab (2.3)" />
     <MESSAGE value="Updates Jan 2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates Jan 2024" />
+    <MESSAGE value="REST API lab some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="REST API lab some fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -676,6 +702,10 @@
           <url>file://$PROJECT_DIR$/Sem2.1/nonlocal.py</url>
           <line>12</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sem2.2/deco.py</url>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

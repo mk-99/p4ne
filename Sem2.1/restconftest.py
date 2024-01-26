@@ -10,7 +10,7 @@ HOST = "https://10.31.70.209"
 REST_HOSTNAME = "/restconf/data/Cisco-IOS-XE-native:native/hostname"
 REST_INTERFACE = "/restconf/data/Cisco-IOS-XE-native:native/interface/GigabitEthernet/1"
 REST_INTERFACE_2 = "/restconf/data/ietf-interfaces:interfaces/interface=GigabitEthernet1"
-REST_OPER = "/restconf/data/Cisco-IOS-XE-interfaces-oper:interfaces"
+REST_OPER = "/restconf/data/Cisco-IOS-XE-process-memory-oper:memory-usage-processes"
 
 r = requests.get(
     HOST + REST_OPER,
