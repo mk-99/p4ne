@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="REST API lab some fixes">
-      <change afterPath="$PROJECT_DIR$/Lab2.4/cat8000v.py" afterDir="false" />
+    <list default="true" id="e2a6b4aa-6306-4da7-b55d-94c249747d84" name="Default" comment="Lab 2.4 for Cisco 8000v">
+      <change afterPath="$PROJECT_DIR$/Sem1.3/match_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2.1/cisco.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sem2.1/ciscoparse_ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2.3/interf.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2.3/interf.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem2.1/restconftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.1/restconftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sem2.3/int.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Sem2.3/int.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +68,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.cat8000v.executor": "Run",
+    "Python.ciscoparse_ex.executor": "Run",
     "Python.configfiles.executor": "Run",
     "Python.data_analysis.executor": "Run",
     "Python.deco.executor": "Debug",
@@ -78,6 +79,7 @@
     "Python.flaskhello.executor": "Run",
     "Python.helloworld.executor": "Run",
     "Python.ipplan.executor": "Run",
+    "Python.match_ex.executor": "Run",
     "Python.netdevice.executor": "Run",
     "Python.regexp.executor": "Run",
     "Python.restconftest.executor": "Run",
@@ -106,7 +108,7 @@
       <recent name="$PROJECT_DIR$/Lab1.3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cat8000v">
+  <component name="RunManager" selected="Python.ciscoparse_ex">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,6 +150,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ciscoparse_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p4ne" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.1/ciscoparse_ex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="deco" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="ENV_FILES" value="" />
@@ -170,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flaskhello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="match_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,11 +203,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem2.2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sem1.3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.2/flaskhello.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem1.3/match_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,28 +230,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sem2.1/restconftest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="restdevice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p4ne" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2.1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2.1/restdevice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,26 +287,26 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.ciscoparse_ex" />
+      <item itemvalue="Python.match_ex" />
       <item itemvalue="Python.cat8000v" />
       <item itemvalue="Python.deco" />
-      <item itemvalue="Python.flaskhello" />
       <item itemvalue="Python.restconftest" />
-      <item itemvalue="Python.restdevice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ciscoparse_ex" />
+        <item itemvalue="Python.match_ex" />
         <item itemvalue="Python.cat8000v" />
         <item itemvalue="Python.restconftest" />
         <item itemvalue="Python.deco" />
-        <item itemvalue="Python.flaskhello" />
-        <item itemvalue="Python.restdevice" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -625,7 +627,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706011477743</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Lab 2.4 for Cisco 8000v">
+      <option name="closed" value="true" />
+      <created>1706265785380</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1706265785380</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -668,7 +678,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lab 1.5 (configfiles) added" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Lab 1.6 (regex) added" />
     <MESSAGE value="DZ1 added" />
     <MESSAGE value="Lab 2.1 added" />
@@ -693,7 +703,8 @@
     <MESSAGE value="Updates to 'ansible' lab (2.3)" />
     <MESSAGE value="Updates Jan 2024" />
     <MESSAGE value="REST API lab some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="REST API lab some fixes" />
+    <MESSAGE value="Lab 2.4 for Cisco 8000v" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 2.4 for Cisco 8000v" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
